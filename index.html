@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -65,20 +64,6 @@
 
       <div class="w3-panel w3-highway-blue numbers">
         <h2 class="w3-center w3-xxxlarge">WE HAVE</h2>
-        <p class="w3-center w3-xxxlarge show-medium">
-          <?xml version="1.0" encoding="utf-8"?>
-          <svg x="0px" y="0px" width="36" fill="#bed9f3" stroke="#bed9f3"
-            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-          <g id="Down-arrow">
-            <path d="M17.2929993,29.7070007c-0.3906994-0.3906002-0.3906994-1.0234013,0-1.4140015
-              c0.3906002-0.3906002,1.0234013-0.3906002,1.4140015,0L32,41.5858994l13.2929993-13.2929001
-              c0.3905983-0.3906002,1.0233994-0.3906002,1.4140015,0C46.902298,28.4883003,47,28.7441998,47,29
-              c0,0.2558994-0.097702,0.5116997-0.2929993,0.7070007l-14,14c-0.3906021,0.3906975-1.0234013,0.3906975-1.4140015,0
-              L17.2929993,29.7070007z"/>
-            <path d="M32,64c17.6730957,0,32-14.3269005,32-32S49.6730957,0,32,0C14.3268003,0,0,14.3268995,0,32S14.3268003,64,32,64z M32,62
-              C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2s30,13.4580002,30,30C62,48.542099,48.542099,62,32,62z"/>
-          </svg>
-        </p>
         <div class="container w3-padding-large">
           <div class="text">
             <p class="number">00</p>
@@ -234,29 +219,28 @@
           <h2>Contact us</h2>
           <p class="w3-xlarge">We would like to hear from you!</p>
           <div class="w3-large w3-margin-top contact-info">
-            <i class="fa fa-location-arrow"></i><span style="margin-left:10px;"><a href="https://www.google.com/maps/place/London,+UK/@51.5287352,-0.3817852,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862" target="_blank">23th Street, London, England</a></span><br>
-            <i class="fa fa-envelope-o"></i><span style="margin-left:10px;"><a href="connect@factor.com">connect@factor.com</a></span><br>
-            <i class="fa fa-phone"></i><span style="margin-left:10px;"><a href="+44 0197532486">+44 0197532486</a></span><br>
+            <i class="fa fa-location-arrow"></i><span style="margin-left:10px;"><a href="https://www.google.com/maps/dir//bennett+university/@27.7827251,77.4492551,9z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cbf94deb6bc39:0x7ba6bedc9a2b537f!2m2!1d77.5841978!2d28.4506465" target="_blank">Bennett University</a></span><br>
+            <i class="fa fa-envelope-o"></i><span style="margin-left:10px;"><a href="buresearchsociety@gmail.com">buresearchsociety@gmail.com</a></span><br>
+            <!--<i class="fa fa-phone"></i><span style="margin-left:10px;"><a href="+44 0197532486">+44 0197532486</a></span><br> -->
           </div>
           <div class="w3-large w3-margin-top contact-info">
-            <i class="fa fa-linkedin"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- LinkedIn</a></span><br>
-            <i class="fa fa-facebook"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;"> - Facebook</a></span><br>
-            <i class="fa fa-twitter"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- Twitter</a></span><br>
+            <i class="fa fa-linkedin"></i><span style="margin-left:10px;"><a href="https://www.linkedin.com/company/buresearchsociety/" target="_blank" style="text-decoration: none;">- LinkedIn</a></span><br>
+            <i class="fa fa-instagram"></i><span style="margin-left:10px;"><a href="https://www.instagram.com/buresearchsociety/" target="_blank" style="text-decoration: none;"> - Facebook</a></span><br>
+            <i class="fa fa-twitter"></i><span style="margin-left:10px;"><a href="https://twitter.com/BUResearchSoc" target="_blank" style="text-decoration: none;">- Twitter</a></span><br>
           </div>
         </div>
         <div class="form w3-margin-top">
           <div class="container w3-round-xlarge">
-            <form class="w3-highway-blue w3-padding-large w3-round-large">
-              <label for="fname">First Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name">
+            <form class="w3-highway-blue w3-padding-large w3-round-large" action="/contact" method="post">
+              <label for="fname">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
 
-              <label for="lname">Last Name</label>
-              <input type="text" id="email" name="email" placeholder="Your email">
+              <label for="lname">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email" required>
 
               <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea required>
               
-              <p>By submiting this form, you agree to our <a href="privacy-policy.html" target="_blank">privacy policy</a></p><br>
               <input class="w3-metro-blue" type="submit" value="Submit">
             </form>
           </div>
